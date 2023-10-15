@@ -15,12 +15,13 @@ document.querySelector('.buttons').addEventListener('click', function (e) {
     }
     // script.js 中，繼續在上面的事件監聽器中加入
 
-    else if (btnValue === '複製結果') {
+    else if (btnValue === '複製螢幕上數字') {
         const textarea = document.createElement('textarea');
         textarea.value = screen.innerText;
         document.body.appendChild(textarea);
         textarea.select();
         document.execCommand('copy');
+        alert('已複製數字到剪貼簿！');
         document.body.removeChild(textarea);
     }
 
