@@ -1,21 +1,27 @@
 /* styles.css */
 body {
     font-family: 'Arial', sans-serif;
+    width: 30%;
+    margin: auto;
+    background-color: #f0f0f0;
+}
+.main{
+    text-align: center;
+    /* height: 80vh; */
+}
+.center-container {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
-    background-color: #f0f0f0;
-}
 
+}
 .calculator {
-    width: 250px;
+    width: 300px;
     background-color: #333;
     border-radius: 15px;
     padding: 20px;
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
 }
-
 .screen {
     background-color: #111;
     color: white;
@@ -25,13 +31,11 @@ body {
     text-align: right;
     margin-bottom: 20px;
 }
-
 .buttons {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 10px;
 }
-
 .btn {
     background-color: #666;
     color: white;
@@ -40,7 +44,7 @@ body {
     font-size: 1.5em;
     border-radius: 50%;
     cursor: pointer;
-    transition: 0.3s;
+    transition: 0.4s;
 }
 
 .btn:hover {
@@ -50,13 +54,14 @@ body {
 .btn.orange {
     background-color: #ff8c00;
 }
+.btn.orange:hover {
+    background-color: #c6710a;
+}
 
 #zero {
     grid-column: span 2;
     border-radius: 50px;
 }
-
-/* styles.css */
 
 .btn.special {
     background-color: #d9d9d9;
@@ -65,17 +70,18 @@ body {
     /* 文字顏色 */
     grid-column-start: 1;
     /* 使按鈕跨越整個網格列 */
-    grid-column-end: 5;
-}
-
-
-/* 實際預覽後 稍微跑版，以下為自行調整部分 */
-
-.calculator {
-    width: 300px;
-}
-
-.btn.special {
-    grid-column: span 2;
     border-radius: 50px;
+    grid-column: span 4;
+    
+}
+
+.btn.btn.special:hover{
+    background-color: #cdcdcddb;
+}
+
+.footer {
+    color: #696969;
+    text-align: center;
+    margin: 20pt auto;
+    line-height: 18pt;
 }
