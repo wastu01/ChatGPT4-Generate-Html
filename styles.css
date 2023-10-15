@@ -86,6 +86,21 @@ body {
     margin: 20pt auto;
     line-height: 18pt;
 }
+
+.link a {
+	color: inherit;
+	text-decoration: none;
+	box-shadow: inset 0 -.125em 0 0 #ababaa;
+	
+	transition-property: color;
+	transition-duration: .25s;
+	trasition-timing-function: cubic-bezier(0,0,.58,1);
+}
+
+.link a:hover {
+	color: #ccc;
+}
+
 /* RWD 設計 */
 @media only screen and (max-device-width :420px) {
     body {
