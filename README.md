@@ -8,12 +8,14 @@ iOS-Calculator-Web
 
 ## 畫面展示
 
+
+
 [https://wastu01.github.io/ChatGPT4-Generate-Html](https://wastu01.github.io/ChatGPT4-Generate-Html)
 
 ## 功能
 
 -  基本的加、減、乘、除運算
--  按鈕點擊可複製計算結果
+-  按鈕點擊可複製螢幕上數字
 -  對目前就這樣
 
 ### 下載原始碼
