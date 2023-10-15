@@ -21,5 +21,5 @@
 直接下載原始碼，或者通過終端機 (Terminal) 使用以下指令：
 
 ```bash
-git clone https://github.com/xxx/iOS-Calculator-HTML.git
+git clone https://github.com/wastu01/iOS-Caculator-Html.git
 ```
