@@ -8,7 +8,7 @@ iOS-Calculator-Web
 
 ## 畫面展示
 
-[https://wastu01.github.io/iOS-Caculator-Html/](https://github.com/wastu01/ChatGPT4-Generate-Html.git)
+[https://wastu01.github.io/ChatGPT4-Generate-Html](https://wastu01.github.io/ChatGPT4-Generate-Html)
 
 ## 功能
 
@@ -21,5 +21,5 @@ iOS-Calculator-Web
 直接下載原始碼，或者通過終端機 (Terminal) 使用以下指令：
 
 ```bash
-git clone https://github.com/wastu01/iOS-Caculator-Html.git
+git clone https://github.com/wastu01/ChatGPT4-Generate-Html.git
 ```
