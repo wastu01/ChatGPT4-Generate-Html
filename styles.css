@@ -1,7 +1,8 @@
 /* styles.css */
 body {
-    font-family: 'Arial', sans-serif;
-    width: 30%;
+    font-family: "SF Pro TC", "SF Pro Text", "SF Pro Icons", "PingFang TC", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    font-size: 0.8em;
+    width: 60%;
     margin: auto;
     background-color: #f0f0f0;
 }
@@ -16,9 +17,9 @@ body {
 
 }
 .calculator {
-    width: 300px;
+    width: 310px;
     background-color: #333;
-    border-radius: 15px;
+    border-radius: 0.9em;
     padding: 20px;
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
 }
@@ -33,15 +34,15 @@ body {
 }
 .buttons {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 10px;
+    grid-template-columns: repeat(4, 2fr);
+    gap: 12px;
 }
 .btn {
     background-color: #666;
     color: white;
     border: none;
     padding: 20px;
-    font-size: 1.5em;
+    font-size: 1.8em;
     border-radius: 50%;
     cursor: pointer;
     transition: 0.4s;
@@ -84,4 +85,24 @@ body {
     text-align: center;
     margin: 20pt auto;
     line-height: 18pt;
+}
+/* RWD 設計 */
+@media only screen and (max-device-width :420px) {
+    body {
+        width: 98%;
+    }
+    .center-container {
+        width: 99%;
+    
+    }
+
+}
+
+@media only screen and (min-device-width :420px) and (max-device-width :667px) {
+    body {
+        width: 85%;
+    }
+    .center-container {
+        width: 99%;
+    }
 }
