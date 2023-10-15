@@ -2,39 +2,63 @@
 <html lang="zh-TW">
 
 <head>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-EE0J212KZN"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-EE0J212KZN');
+    </script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>網頁版Apple計算機</title>
     <link rel="stylesheet" href="styles.css">
+    
 </head>
 
 <body>
-    <div class="calculator">
-        <div class="screen">0</div>
-        <div class="buttons">
-            <button class="btn">AC</button>
-            <button class="btn">+/-</button>
-            <button class="btn">%</button>
-            <button class="btn orange">÷</button>
-            <button class="btn">7</button>
-            <button class="btn">8</button>
-            <button class="btn">9</button>
-            <button class="btn orange">×</button>
-            <button class="btn">4</button>
-            <button class="btn">5</button>
-            <button class="btn">6</button>
-            <button class="btn orange">−</button>
-            <button class="btn">1</button>
-            <button class="btn">2</button>
-            <button class="btn">3</button>
-            <button class="btn orange">+</button>
-            <button class="btn" id="zero">0</button>
-            <button class="btn">.</button>
-            <button class="btn orange">=</button>
-            <!-- 在最後的 "=" 按鈕後面加上這一段 -->
-            <button class="btn special">複製結果</button>
+    <main class="main">
+        <h1>網頁版iOS風格計算機</h1>
+        <p>ChatGPT 圖片分析後製作完成的效果。</p>
+        <div class="center-container">
+            <div class="calculator">
+                <div class="screen">20231016</div>
+                <div class="buttons">
+                    <button class="btn">AC</button>
+                    <button class="btn">+/-</button>
+                    <button class="btn">%</button>
+                    <button class="btn orange">÷</button>
+                    <button class="btn">7</button>
+                    <button class="btn">8</button>
+                    <button class="btn">9</button>
+                    <button class="btn orange">×</button>
+                    <button class="btn">4</button>
+                    <button class="btn">5</button>
+                    <button class="btn">6</button>
+                    <button class="btn orange">−</button>
+                    <button class="btn">1</button>
+                    <button class="btn">2</button>
+                    <button class="btn">3</button>
+                    <button class="btn orange">+</button>
+                    <button class="btn" id="zero">0</button>
+                    <button class="btn">.</button>
+                    <button class="btn orange">=</button>
+                    <!-- 在最後的 "=" 按鈕後面加上這一段 -->
+                    <button class="btn special">複製螢幕上數字</button>
+                </div>
+            </div>
         </div>
+
+    </main>
+
+    <div class="footer">
+
+        <small>此頁面使用 ChatGPT-4 圖片分析功能<br>實際生成的網頁效果。完整提示詞：<a href="https://hackmd.io/@DCT/ChatGPT-DALLE3-text-to-image" target="_blank"></a></small>
+
     </div>
+
+  
     <script src="script.js"></script>
 </body>
 
